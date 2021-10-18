@@ -52,6 +52,7 @@ img {
 }
 
 a {
+    color: var(--text--);
     text-decoration: none;
     display: inline-block
 }
@@ -3665,7 +3666,7 @@ tbody tr td:last-child {
 .header-widget-group {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .header-widget-group .header-widget {
@@ -5432,7 +5433,6 @@ tbody tr td:last-child {
 }
 
 .footer-links {
-    display: grid;
     grid-gap: 50px;
     grid-template-columns: 1fr 1fr
 }
