@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
 :root {
     --h1size: 50px;
     --h2size: 40px;
@@ -14,7 +15,7 @@
     --h5height: 26px;
     --h6height: 26px;
     --bodyheight: 26px;
-    --pfamily: 'Be Vietnam Pro', sans-serif;
+    --pfamily: 'SF-Pro-Display', sans-serif;
     --red: #ff3838;
     --gray: #777777;
     --text: #555555;
@@ -39,6 +40,132 @@
     --twitter: #00acee;
     --primary-bshadow: 0px 15px 35px 0px rgba(0, 0, 0, 0.1);
     --primary-tshadow: 2px 3px 8px rgba(0, 0, 0, 0.1)
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 100;
+    font-style: normal;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-Thin.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 100;
+    font-style: italic;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-ThinItalic.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 200;
+    font-style: normal;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-Thin.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 200;
+    font-style: italic;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-Light.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 300;
+    font-style: normal;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-Light.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 300;
+    font-style: italic;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-LightItalic.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-Regular.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 400;
+    font-style: italic;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-RegularItalic.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 500;
+    font-style: normal;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-Medium.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 500;
+    font-style: italic;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-MediumItalic.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 600;
+    font-style: normal;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-Medium.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 600;
+    font-style: italic;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-MediumItalic.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 700;
+    font-style: normal;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-Bold.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 700;
+    font-style: italic;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-BoldItalic.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 800;
+    font-style: normal;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-Bold.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 800;
+    font-style: italic;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-BoldItalic.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 900;
+    font-style: normal;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-Black.otf) format("truetype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display;
+    font-weight: 900;
+    font-style: italic;
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-BlackItalic.otf) format("truetype");
 }
 
 * {
@@ -1180,7 +1307,7 @@ tbody tr td:last-child {
     font-size: 13px;
     margin-left: 3px;
     color: var(--gray);
-    font-family: sans-serif
+    font-family: SF-Pro-Display, sans-serif
 }
 
 .table-desc p {
@@ -3737,7 +3864,7 @@ tbody tr td:last-child {
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
-    font-family: sans-serif;
+    font-family: SF-Pro-Display, sans-serif;
     display: block
 }
 
