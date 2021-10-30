@@ -1803,7 +1803,7 @@ tbody tr td:last-child {
 
 .product-disable::before {
     position: absolute;
-    content: "Out of Stock";
+    content: "Hết hàng";
     top: 40%;
     left: 50%;
     z-index: 2;
